@@ -1,0 +1,2 @@
+transform,MAE,RMSE,R2,params
+log1p,120.88076101593506,597.5389789466817,0.8384095652750161,"{'max_iter': 400, 'learning_rate': 0.03, 'max_depth': 6, 'l2_regularization': 0.5}"
