@@ -2,6 +2,20 @@
 
 Predict spot freight rates for 12,000 validation loads and generate December 2025 rate predictions for a fixed lane (Lexington → Fort Wayne).
 
+## Deployed App
+
+The interactive Streamlit app is deployed and live at:
+
+**https://freight-rate-prediction-hpth23jvmg8cvft23gvn8v.streamlit.app/**
+
+The app provides four tabs:
+- **Single load** — enter one load's details and get an instant rate prediction
+- **Batch (CSV)** — upload a CSV of many loads, download predictions
+- **December 2025 chart** — view the fixed-lane December predictions + chart image
+- **Model info** — CV metrics, best hyperparameters, feature columns
+
+No installation is required to use the deployed app. To run it locally, see the Usage section below.
+
 ## Project goal
 
 Train a model on historical loads (`data/train-test.csv`, Jan–Oct 2025, target `posted_rate`) and predict:
